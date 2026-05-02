@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sketch: "Patrick Hand", cursive;
+}
+
+body {
+  font-family: var(--font-sketch);
+  background-color: #fff;
+  color: #000;
+}
+
+/* Custom scrollbar for sketchy feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

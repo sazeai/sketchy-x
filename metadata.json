@@ -1,0 +1,6 @@
+{
+  "name": "Sketchy X Clone",
+  "description": "A recreation of the X/Twitter UI using a hand-drawn, sketch aesthetic with SVG displacement filters for messy lines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
